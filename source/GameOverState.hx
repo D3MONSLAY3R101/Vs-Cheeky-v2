@@ -14,57 +14,12 @@ class GameOverState extends FlxTransitionableState
 	var bfY:Float = 0;
 
 	public function new(x:Float, y:Float)
-	{`
+	{
 		super();
 
 		bfX = x;
 		bfY = y;
 	}
-		function createCoolText(textArray:Array<String>)
-	{
-		for (i in 0...textArray.length)
-		{
-			var money:Alphabet = new Alphabet(0, 0, textArray[i], true, false);
-			money.screenCenter(X);
-			money.y += (i * 60) + 200;
-			credGroup.add(money);
-			textGroup.add(money);
-		}
-	}
-
-		function getIntroTextShit():Array<Array<String>>
-	{
-		var fullText:String = Assets.getText(Paths.txt('mugenText'));
-
-		var firstArray:Array<String> = fullText.split('\n');
-		var swagGoodArray:Array<Array<String>> = [];
-
-		for (i in firstArray)
-		{
-			swagGoodArray.push(i.split('--'));
-		}
-
-		return swagGoodArray;
-	}
-
-		function addMoreText(text:String)
-	{
-		var coolText:Alphabet = new Alphabet(0, 0, text, true, false);
-		coolText.screenCenter(X);
-		coolText.y += (textGroup.length * 60) + 200;
-		credGroup.add(coolText);
-		textGroup.add(coolText);
-	}
-
-		function deleteCoolText()
-	{
-		while (textGroup.members.length > 0)
-		{
-			credGroup.remove(textGroup.members[0], true);
-			textGroup.remove(textGroup.members[0], true);
-		}
-	}
-		curWacky = FlxG.random.getObject(getIntroTextShit());
 
 	override function create()
 	{
@@ -79,9 +34,6 @@ class GameOverState extends FlxTransitionableState
 		// bf.scrollFactor.set();
 		add(bf);
 		bf.playAnim('firstDeath');
-		
-			createCoolText([curWacky[0]]);
-				addMoreText(curWacky[1]);
 
 		FlxG.camera.follow(bf, LOCKON, 0.001);
 		
@@ -122,7 +74,6 @@ class GameOverState extends FlxTransitionableState
 			FlxG.sound.music.fadeOut(0.5, 0, function(twn:FlxTween)
 			{
 				FlxG.sound.music.stop();
-				deleteCoolText()
 				LoadingState.loadAndSwitchState(new PlayState());
 			});
 		}

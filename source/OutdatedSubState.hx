@@ -84,15 +84,15 @@ class OutdatedSubState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if (controls.ACCEPT)
-		{
-			FlxG.openURL("https://kadedev.github.io/Kade-Engine/changelogs/changelog-" + needVer);
-		}
-		if (controls.BACK)
-		{
+		//if (controls.ACCEPT)
+		//{
+		//	fancyOpenURL("https://kadedev.github.io/Kade-Engine/changelogs/changelog-" + needVer);
+		//}
+		//if (controls.BACK)
+		//{
 			leftState = true;
 			FlxG.switchState(new MainMenuState());
-		}
+		//}
 		super.update(elapsed);
 	}
 }

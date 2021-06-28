@@ -18,11 +18,16 @@ class GameOverSubstate extends MusicBeatSubstate
 	{
 		var daStage = PlayState.curStage;
 		var daBf:String = '';
-		switch (daStage)
+		switch(PlayState.SONG.player1)
 		{
-			case 'school':
+			case 'bf-pixel':
 				stageSuffix = '-pixel';
 				daBf = 'bf-pixel-dead';
+			default:
+				daBf = 'bf';
+		}
+		switch(daStage)
+		{
 			case 'mugenEvil':
 				daBf = 'bf-death';
 			default:

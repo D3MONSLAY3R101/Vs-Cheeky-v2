@@ -11,7 +11,7 @@ typedef SwagSong =
 {
 	var song:String;
 	var notes:Array<SwagSection>;
-	var bpm:Int;
+	var bpm:Float;
 	var needsVoices:Bool;
 	var speed:Float;
 
@@ -27,15 +27,15 @@ class Song
 {
 	public var song:String;
 	public var notes:Array<SwagSection>;
-	public var bpm:Int;
+	public var bpm:Float;
 	public var needsVoices:Bool = true;
 	public var speed:Float = 1;
 
 	public var player1:String = 'bf';
 	public var player2:String = 'dad';
-	public var gfVersion:String = 'gf';
-	public var noteStyle:String = 'normal';
-	public var stage:String = 'stage';
+	public var gfVersion:String = '';
+	public var noteStyle:String = '';
+	public var stage:String = '';
 
 	public function new(song, notes, bpm)
 	{
@@ -46,7 +46,18 @@ class Song
 
 	public static function loadFromJson(jsonInput:String, ?folder:String):SwagSong
 	{
-		var rawJson = Assets.getText(Paths.json(folder.toLowerCase() + '/' + jsonInput.toLowerCase())).trim();
+		trace(jsonInput);
+
+		// pre lowercasing the folder name
+		var folderLowercase = StringTools.replace(folder, " ", " ").toLowerCase();
+		switch (folderLowercase) {
+			case 'dad-battle': folderLowercase = 'dadbattle';
+			case 'philly-nice': folderLowercase = 'philly';
+		}
+		
+		trace('loading ' + folderLowercase + '/' + jsonInput.toLowerCase());
+
+		var rawJson = Assets.getText(Paths.json(folderLowercase + '/' + jsonInput.toLowerCase())).trim();
 
 		while (!rawJson.endsWith("}"))
 		{
