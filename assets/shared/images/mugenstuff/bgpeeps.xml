@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="people.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bgdance0000" x="0" y="0" width="1825" height="612" frameX="0" frameY="-18" frameWidth="1825" frameHeight="630"/>
+	<SubTexture name="bgdance0001" x="1825" y="0" width="1825" height="630"/>
+	<SubTexture name="bgdance0002" x="1825" y="0" width="1825" height="630"/>
+	<SubTexture name="bgdance0003" x="0" y="630" width="1825" height="620" frameX="0" frameY="-10" frameWidth="1825" frameHeight="630"/>
+	<SubTexture name="bgdance0004" x="0" y="630" width="1825" height="620" frameX="0" frameY="-10" frameWidth="1825" frameHeight="630"/>
+	<SubTexture name="bgdance0005" x="1825" y="630" width="1825" height="622" frameX="0" frameY="-8" frameWidth="1825" frameHeight="630"/>
+	<SubTexture name="bgdance0006" x="1825" y="630" width="1825" height="622" frameX="0" frameY="-8" frameWidth="1825" frameHeight="630"/>
+	<SubTexture name="bgdance0007" x="1825" y="630" width="1825" height="622" frameX="0" frameY="-8" frameWidth="1825" frameHeight="630"/>
+	<SubTexture name="bgdance0008" x="1825" y="630" width="1825" height="622" frameX="0" frameY="-8" frameWidth="1825" frameHeight="630"/>
+	<SubTexture name="bgdance0009" x="1825" y="630" width="1825" height="622" frameX="0" frameY="-8" frameWidth="1825" frameHeight="630"/>
+	<SubTexture name="bgdance0010" x="1825" y="630" width="1825" height="622" frameX="0" frameY="-8" frameWidth="1825" frameHeight="630"/>
+	<SubTexture name="bgdance0011" x="1825" y="630" width="1825" height="622" frameX="0" frameY="-8" frameWidth="1825" frameHeight="630"/>
+</TextureAtlas>

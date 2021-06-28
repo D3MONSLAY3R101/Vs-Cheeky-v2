@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="window2.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lols0000" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0001" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0002" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0003" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0004" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0005" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0006" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0007" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0008" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0009" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0010" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0011" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0012" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0013" x="0" y="0" width="391" height="247"/>
+	<SubTexture name="lols0014" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0015" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0016" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0017" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0018" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0019" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0020" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0021" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0022" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0023" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0024" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0025" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0026" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0027" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0028" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0029" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0030" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0031" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0032" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0033" x="391" y="0" width="391" height="247"/>
+	<SubTexture name="lols0034" x="0" y="247" width="391" height="247"/>
+	<SubTexture name="lols0035" x="0" y="247" width="391" height="247"/>
+	<SubTexture name="lols0036" x="0" y="247" width="391" height="247"/>
+	<SubTexture name="lols0037" x="0" y="247" width="391" height="247"/>
+	<SubTexture name="lols0038" x="0" y="247" width="391" height="247"/>
+	<SubTexture name="lols0039" x="0" y="247" width="391" height="247"/>
+</TextureAtlas>
