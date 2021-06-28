@@ -15,3 +15,6 @@ This game was made with love to Newgrounds and its community. Extra love to Tom 
 ### Kade Engine
 - [KadeDeveloper](https://twitter.com/KadeDeveloper) - Maintainer and lead programmer
 - [The contributors](https://github.com/KadeDev/Kade-Engine/graphs/contributors)
+
+### Stupid Forker
+- [Raltyro](https://www.youtube.com/channel/UChkuPgNTUwhT4nM8d_x50GA) - Porter, Recharter, Modchart
